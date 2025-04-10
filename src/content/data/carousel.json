@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "imgUrl": "1.jpg",
+        "smallText": "Look Today",
+        "bigText": "Elegant Lounge <br /> Area",
+        "BtnText": "Book Now"
+    },
+    {
+        "id": 2,
+        "imgUrl": "2.jpg",
+        "smallText": "Discover",
+        "bigText": "Premium Pedicure <br /> Stations",
+        "BtnText": "Shop Now"
+    },
+    {
+        "id": 3,
+        "imgUrl": "3.jpg",
+        "smallText": "Experience",
+        "bigText": "Luxurious Display <br /> Shelves",
+        "BtnText": "Explore"
+    },
+    {
+        "id": 4,
+        "imgUrl": "4.jpg",
+        "smallText": "Find Your Style",
+        "bigText": "Relaxation and <br /> Comfort",
+        "BtnText": "View Collection"
+    },
+    {
+        "id": 5,
+        "imgUrl": "5.jpg",
+        "smallText": "Taste",
+        "bigText": "Tranquil Massage <br /> Room",
+        "BtnText": "Order Now"
+    },
+    {
+        "id": 6,
+        "imgUrl": "6.jpg",
+        "smallText": "Join Us",
+        "bigText": "Advanced Skincare <br /> Setup",
+        "BtnText": "Learn More"
+    }
+]

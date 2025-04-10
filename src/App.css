@@ -1,0 +1,935 @@
+@import './font/Caveat-Regular/stylesheet.css';
+@import './font/Poppins-Regular/stylesheet.css';
+@import './font/YesevaOne-Regular/stylesheet.css';
+
+body {
+    font-family: 'Poppins';
+}
+
+
+header {
+    z-index: 9999;
+    position: relative;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-nav>li>a {
+    font-size: 14px;
+    color: #c68e3f;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar-nav>li>a>span {
+    position: relative;
+}
+
+.navbar-nav>li>a>span::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #c68e3f;
+    transition: width 0.3s ease-in-out;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+    background-color: transparent;
+    width: 100%;
+}
+
+.nav>li>a:focus>span::after,
+.nav>li>a:hover>span::after {
+    width: 100%;
+}
+
+.navbar-right {
+    position: relative;
+    top: 20px;
+}
+
+#myCarousel {
+    margin-top: 0;
+    bottom: 100px;
+    min-height: 100vh;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#myCarousel .carousel-inner {
+    min-height: 100vh;
+}
+
+#myCarousel .carousel-inner>.item {
+    min-height: 100vh;
+}
+
+#myCarousel .carousel-inner>.item>img {
+    width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #000;
+    padding: 50px 0 50px 0;
+    color: #fff;
+}
+
+.copright-wrapper {
+    background-color: #c68e3f;
+    color: #fff;
+    font-size: 14px;
+    padding: 18px 0;
+}
+
+.copright-wrapper p {
+    margin-bottom: 0;
+}
+
+.footer-logo-wrapper {
+    padding: 0 0 10px 0;
+}
+
+.footer-logo-wrapper p {
+    margin-top: 15px;
+}
+
+footer h3 {
+    color: #c68e3f;
+    font-size: 20px;
+    font-family: 'Poppins';
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.footer-link {
+    float: none !important;
+}
+
+.footer-link>li {
+    display: block;
+    float: none;
+}
+
+.footer-link>li>a {
+    float: none;
+    padding: 8px 10px;
+    height: auto;
+}
+
+.footer-table td {
+    border-top: 0 !important;
+}
+
+.icon {
+    width: 20px;
+}
+
+.social-link {
+    list-style: none;
+    margin: 20px 0 0 0;
+    padding: 0 0;
+}
+
+.social-link>li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.social-link>li:last-child {
+    margin-right: 0;
+}
+
+.carousel-caption {
+    right: auto;
+    left: 10%;
+    padding-bottom: 30px;
+    text-align: left;
+    bottom: auto;
+    top: 18%;
+}
+
+.carousel-caption h3 {
+    color: #c68e3f;
+    font-family: 'Caveat';
+    font-size: 44px;
+    visibility: hidden;
+}
+
+.carousel-caption p {
+    margin-bottom: 0;
+    font-size: 50px;
+    font-family: 'Yeseva One';
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+.carousel-inner>img {
+    width: 100%;
+}
+
+.icon-arrow {
+    width: 30px;
+}
+
+h2 {
+    color: #c68e3f;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.error-text {
+    text-align: left;
+    color: #cc0000;
+}
+
+.get-in-touch {
+    padding: 60px 0;
+}
+
+.get-in-touch h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border-radius: 0;
+    border: 1px solid rgba(198, 142, 63, 0.5);
+    color: #000;
+    height: 45px;
+}
+
+.get-in-touch .form-control {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #c68e3f !important;
+    color: #fff !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    outline: 0;
+    display: none;
+}
+
+.testimonials-wrapper {
+    background-color: #eed8ba;
+    padding: 50px 0;
+}
+
+.testimonials-wrapper h2 {
+    margin: 0 0;
+}
+
+.quote-wrapper {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.quote-wrapper img {
+    width: 50px;
+}
+
+.test-designation b {
+    display: block;
+    font-family: 'Poppins';
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.test-designation img {
+    width: 60px;
+}
+
+#testimonialCar .carousel-control.left {
+    justify-content: start;
+}
+
+#testimonialCar .carousel-control.right {
+    justify-content: end;
+}
+
+#testimonialCar .carousel-control.left .icon-arrow,
+#testimonialCar .carousel-control.right .icon-arrow {
+    position: relative;
+}
+
+#testimonialCar .carousel-control.left .icon-arrow {
+    right: 50px;
+}
+
+#testimonialCar .carousel-control.right .icon-arrow {
+    left: 50px;
+}
+
+.our-service-main-wrapper {
+    padding-top: 20px;
+    /* padding-bottom: 60px; */
+    padding-bottom: 20px;
+}
+
+.our-service-main-wrapper h2 {
+    margin-bottom: 35px;
+    font-family: 'Poppins';
+    font-weight: 900;
+}
+
+.our-service-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.our-service-wrapper>img {
+    cursor: pointer;
+    margin: 0 10px;
+    width: 25%;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.our-service-wrapper>div>img {
+    border: 5px solid #eed8ba;
+    display: block;
+    /* margin-bottom: 10px; */
+    width: 100%;
+}
+
+.our-service-wrapper>div>p {
+    margin-bottom: 0;
+    font-family: 'Yeseva One';
+    text-align: center;
+    color: #c68e3f;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+header.black-header {
+    background: #000;
+    height: 110px;
+}
+
+header.black-header .navbar-right {
+    top: 30px;
+}
+
+.about-wrapper {
+    padding-top: 50px;
+}
+
+.about-wrapper p {
+    text-align: justify;
+}
+
+.hair-care-style,
+.waxing-hair-removal,
+.massage-body-treatment {
+    background-color: #eed8ba;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.skin-facial-treatment,
+.nail-lash-service,
+.makeup-bridal-service {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.banner-wrapper {
+    position: relative;
+}
+
+.banner-wrapper>img {
+    width: 100%;
+}
+
+.banner-wrapper .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.banner-wrapper .banner-content h1 {
+    font-family: 'Poppins';
+    color: #c68e3f;
+    margin: 0 0;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.banner-wrapper .banner-content ul {
+    list-style: none;
+    padding: 0 0;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+
+.banner-wrapper .banner-content ul>li {
+    display: inline-block;
+    margin-right: 10px;
+    color: #c68e3f;
+}
+
+.banner-wrapper .banner-content ul>li>a {
+    color: #c68e3f;
+}
+
+.home-read-more {
+    text-align: right;
+}
+
+.home-read-more>a {
+    color: inherit;
+    cursor: pointer;
+}
+
+.footer-a>a {
+    color: #fff;
+}
+
+.footer-a>a:hover {
+    text-decoration: none;
+}
+
+.ABOUT-CONTENT-WRAPPER {
+    padding-bottom: 40px;
+}
+
+.what-we-do {}
+
+.form-btn-wrapper {
+    text-align: right;
+}
+
+.form-btn-wrapper .btn-default {
+    min-height: 45px;
+    width: 100%;
+    border: 2px solid #c68e3f !important;
+    transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+}
+
+.form-btn-wrapper .btn-default:hover {
+    border: 1px solid #c68e3f !important;
+    color: #c68e3f !important;
+    background-color: transparent !important;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(1, 1);
+    }
+
+    to {
+        -webkit-transform: scale(1.5, 1.5);
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1, 1);
+    }
+
+    to {
+        transform: scale(1.5, 1.5);
+    }
+}
+
+.carousel-inner .item>img {
+    -webkit-animation: zoom 20s;
+    animation: zoom 20s;
+}
+
+.menu-h3 {
+    margin-top: 0;
+    font-weight: bold;
+    display: none;
+}
+
+.menu-ul {
+    padding: 0 0 0 0;
+    margin: 0;
+}
+
+.menu-ul>li {
+    border-top: 1px solid #c68e3f;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.menu-ul>li>span:last-child {
+    visibility: hidden;
+}
+
+.menu-ul>li:last-child {
+    border-bottom: 1px solid #c68e3f;
+}
+
+.our-service-main-wrapper.home {
+    padding-bottom: 100px;
+}
+
+/* .menu-dropdown {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+} */
+
+.menu-dropdown button {
+    width: 220px !important;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    position: relative;
+    background: transparent !important;
+}
+
+.menu-dropdown .dropdown {
+    display: flex;
+    justify-content: space-between;
+    background-color: #c68e3f;
+    padding: 15px;
+}
+
+.menu-dropdown .dropdown>span {
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+}
+
+.menu-dropdown button .caret {
+    position: absolute;
+    /* top: 8px; */
+    left: auto;
+    right: 0;
+    color: #fff;
+    border-top: 10px dashed;
+    border-top: 4px solid\9;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+
+
+.menu-dropdown .dropdown-menu {
+    right: 0;
+    min-width: 220px;
+    left: auto;
+    max-width: 220px;
+}
+
+.menu-dropdown .dropdown-menu>li>a {
+    cursor: pointer;
+}
+
+.menu-dropdown .dropdown-menu>.active>a,
+.menu-dropdown .dropdown-menu>.active>a:focus,
+.menu-dropdown .dropdown-menu>.active>a:hover {
+    background-color: #c68e3f;
+}
+
+#myCarousel .carousel-inner>.item.customRight .carousel-caption {
+    left: auto;
+    right: 10%;
+}
+
+#myCarousel .carousel-inner>.item.customRight .carousel-caption p {
+    text-align: right;
+}
+
+#myCarousel .carousel-indicators li {
+    margin: 0;
+    margin-right: 15px;
+    width: 15px;
+    height: 15px;
+}
+
+#myCarousel .carousel-indicators li.active {
+    background-color: #c68e3f;
+}
+
+.card {
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px rgba(199, 200, 204, 0.5);
+    transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+.card .card-img {
+    overflow: hidden;
+}
+
+.card .card-img>img {
+    transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+.card:hover .card-img>img {
+    transform: scale(1.1);
+}
+
+.card:hover {
+    box-shadow: 3px 3px 10px rgba(199, 200, 204, 1);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    cursor: pointer;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.card-button {
+    margin-top: 10px;
+}
+
+.card .card-sub-heading {
+    color: #000;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Poppins';
+    margin-top: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.card .card-body {
+    padding: 0 15px 15px 15px;
+}
+
+.card .card-body p {
+    margin-bottom: 0;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.card .card-title {
+    color: #c68e3f !important;
+    font-family: 'Poppins';
+    letter-spacing: 1px;
+    font-size: 20px !important;
+    font-weight: 100;
+    margin-top: 0;
+}
+
+.card .btn {
+    border: 2px solid #c68e3f !important;
+    background-color: transparent !important;
+    color: #c68e3f !important;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+.card .btn:hover {
+    background-color: #c68e3f !important;
+    color: #fff !important;
+}
+
+.service-drop-wrapper {
+    display: flex;
+}
+
+.navbar-brand {
+    padding: 15px 0 0 0;
+}
+
+.navbar-brand>img {
+    width: 300px;
+    height: 80px;
+}
+
+.gallery-wrapper {
+    padding: 50px 0;
+}
+
+.menu-dropdown .btn.active,
+.menu-dropdown .btn:active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.owl-theme .owl-nav {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% + 100px);
+    margin: auto;
+    margin-left: auto;
+    margin-left: auto;
+    margin-left: -50px;
+    top: 50%;
+    position: absolute;
+    transform: translate(0, -50%);
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel button.owl-dot {
+
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel button.owl-dot {
+    font-size: 50px;
+    color: #c68e3f !important;
+    background-color: transparent !important;
+}
+
+.owl-carousel .owl-item {
+    min-height: 420px;
+}
+
+.carousel-indicators {
+    margin-bottom: 0;
+    bottom: 10%;
+}
+
+.car-wrapper {
+    position: relative;
+}
+
+@keyframes upAndDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+.car-wrapper>span {
+    position: absolute;
+    bottom: 100px;
+    z-index: 1;
+    bottom: 120px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    cursor: pointer;
+}
+
+.car-wrapper>span>svg {
+    color: #fff;
+    animation: upAndDown 1s infinite;
+}
+
+
+@media (max-width: 768px) {
+
+    header {
+        background-color: #000;
+    }
+
+    #testimonialCar .carousel-control.right .icon-arrow {
+        left: 0;
+    }
+
+    #testimonialCar .carousel-control.left .icon-arrow {
+        right: 0;
+    }
+
+    header .navbar .navbar-brand {
+        padding: 0 0;
+    }
+
+    header .navbar .navbar-brand {
+        padding: 0 0;
+    }
+
+
+
+    .navbar-header button {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 20px;
+        width: 40px;
+        height: 10px;
+        background: transparent !important;
+    }
+
+    .navbar-header button span {
+        width: 100%;
+        height: 1px;
+        display: block;
+        background: #c68e3f;
+        border-radius: 50%;
+        margin-bottom: 5px;
+    }
+
+    [id="myNavbar"] {
+        background-color: #fff;
+        padding: 15px 15px 0 15px;
+    }
+
+    .navbar-right {
+        top: 0;
+        padding-left: 15px;
+    }
+
+    .navbar-brand {
+        float: none;
+        height: auto;
+    }
+
+    .nav>li {
+        margin-bottom: 15px;
+    }
+
+    .navbar-nav>li>a {
+        padding: 0 0;
+    }
+
+    .our-service-main-wrapper.home {
+        padding-bottom: 15px;
+    }
+
+    footer .table {
+        margin-bottom: 0;
+    }
+
+    #myCarousel {
+        bottom: 0;
+        height: auto;
+        min-height: auto;
+    }
+
+    #myCarousel .carousel-inner,
+    #myCarousel .carousel-inner>.item,
+    #myCarousel .carousel-inner>.item>img {
+        min-height: auto;
+    }
+
+    #myCarousel .carousel-caption {
+        display: none;
+    }
+
+    .our-service-main-wrapper h2 {
+        margin-bottom: 15px;
+        margin-top: 0;
+    }
+
+    .get-in-touch {
+        padding: 20px 0;
+    }
+
+    .about-wrapper {
+        padding: 15px 0 0 0;
+    }
+
+    .ABOUT-CONTENT-WRAPPER {
+        padding: 0 0;
+    }
+
+    .hair-care-style,
+    .waxing-hair-removal,
+    .massage-body-treatment,
+    .skin-facial-treatment,
+    .nail-lash-service,
+    .makeup-bridal-service {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    header.black-header .navbar-right {
+        padding-left: 15px;
+        top: 0;
+    }
+
+    header.black-header {
+        height: 90px;
+    }
+
+    .testimonials-wrapper {
+        padding: 20px 0;
+    }
+
+    .quote-wrapper {
+        display: none;
+    }
+
+    .testimonials-wrapper h2 {
+        margin-bottom: 15px;
+    }
+
+
+}
